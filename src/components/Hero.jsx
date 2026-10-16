@@ -23,8 +23,7 @@ function Hero({data}) {
         </div>
 
         <div className="hero-photo">
-          <img src={data.portfileImage} alt={data.name} />
-          <img />
+          <img src={data.profileImage}/>
         </div>
       </div>
     </section>
